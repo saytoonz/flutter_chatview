@@ -410,13 +410,13 @@ class ChatState extends State<Chat> {
                                 ),
                               ),
                       ),
-                      widget.customBottomWidget ??
-                          Input(
-                            isAttachmentUploading: widget.isAttachmentUploading,
-                            onAttachmentPressed: widget.onAttachmentPressed,
-                            onSendPressed: widget.onSendPressed,
-                            options: widget.inputOptions,
-                          ),
+                      // widget.customBottomWidget ??
+                      //     Input(
+                      //       isAttachmentUploading: widget.isAttachmentUploading,
+                      //       onAttachmentPressed: widget.onAttachmentPressed,
+                      //       onSendPressed: widget.onSendPressed,
+                      //       options: widget.inputOptions,
+                      //     ),
                     ],
                   ),
                 ),
