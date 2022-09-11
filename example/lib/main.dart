@@ -49,11 +49,11 @@ class _ChatPageState extends State<ChatPage> {
         body: Chat(
           messages: _messages,
           onAttachmentPressed: _handleAttachmentPressed,
-          onMessageTap: _handleMessageTap,
-          onPreviewDataFetched: _handlePreviewDataFetched,
+          // onMessageTap: _handleMessageTap,
+          // onPreviewDataFetched: _handlePreviewDataFetched,
           onSendPressed: _handleSendPressed,
-          showUserAvatars: true,
-          showUserNames: true,
+          // showUserAvatars: true,
+          // showUserNames: true,
           user: _user,
         ),
       );
